@@ -7,3 +7,4 @@
 /Users/junecho/Projects/Debugging/Debugging/obj/Debug/netcoreapp1.1/Debugging.AssemblyInfo.cs
 /Users/junecho/Projects/Debugging/Debugging/obj/Debug/netcoreapp1.1/Debugging.dll
 /Users/junecho/Projects/Debugging/Debugging/obj/Debug/netcoreapp1.1/Debugging.pdb
+/Users/junecho/Projects/Debugging/Debugging/obj/Debug/netcoreapp1.1/Debugging.csprojResolveAssemblyReference.cache

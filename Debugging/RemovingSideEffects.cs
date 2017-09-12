@@ -16,6 +16,7 @@ namespace Debugging
 		}
 
         //This Method currently returns a Side-Effect
+        //Now this list is only orginated once when you create the buffer
 		public static List<int> GetSmallests(List<int> list, int count)
 		{
             //We are creating a variable here to do the processing of the list 
@@ -25,10 +26,14 @@ namespace Debugging
 
 			while (smallests.Count < count)
 			{
-				var min = GetSmallest(list);
+                //Here, we are passing in the buffer instead of the list
+                //var min = GetSmallest(list);
+                var min = GetSmallest(buffer);
 				smallests.Add(min);
-                //Instead of removing the objects here from the original list
-                list.Remove(min);
+                //Instead of removing the objects here from the original list,
+                //we are going to do it in the buffer
+                //list.Remove(min);
+                buffer.Remove(min);
 			}
 
 			return smallests;
