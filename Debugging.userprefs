@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Debugging/Program.cs" Line="13" Column="1" />
       <File FileName="Debugging/RemovingSideEffects.cs" Line="29" Column="73" />
-      <File FileName="Debugging/DefensiveProgramming.cs" Line="4" Column="18" />
+      <File FileName="Debugging/DefensiveProgramming.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
