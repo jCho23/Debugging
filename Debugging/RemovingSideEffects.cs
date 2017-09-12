@@ -11,19 +11,24 @@ namespace Debugging
 			var numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
 			var smallests = GetSmallests(numbers, 3);
 
-			foreach (var number in smallests)
+			foreach (var number in numbers)
 				Console.WriteLine(number);
 		}
 
+        //This Method currently returns a Side-Effect
 		public static List<int> GetSmallests(List<int> list, int count)
 		{
+            //We are creating a variable here to do the processing of the list 
+            var buffer = new List<int>(list);
+
 			var smallests = new List<int>();
 
 			while (smallests.Count < count)
 			{
 				var min = GetSmallest(list);
 				smallests.Add(min);
-				list.Remove(min);
+                //Instead of removing the objects here from the original list
+                list.Remove(min);
 			}
 
 			return smallests;
