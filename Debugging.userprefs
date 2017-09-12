@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{8465A6D3-2A2B-4B2A-ABB8-FEA8214861D9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Debugging/DebuggingApplications.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Debugging/RemovingSideEffects.cs">
     <Files>
-      <File FileName="Debugging/DebuggingApplications.cs" Line="6" Column="2" />
-      <File FileName="Debugging/Program.cs" Line="1" Column="1" />
+      <File FileName="Debugging/Program.cs" Line="13" Column="1" />
+      <File FileName="Debugging/RemovingSideEffects.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

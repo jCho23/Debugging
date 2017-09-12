@@ -31,10 +31,11 @@ namespace Debugging
 
 		public static int GetSmallest(List<int> list)
 		{
+            //Assume the first number is the smallest
 			var min = list[0];
 			for (var i = 1; i < list.Count; i++)
 			{
-				if (list[i] > min)
+				if (list[i] < min)
 					min = list[i];
 			}
 
