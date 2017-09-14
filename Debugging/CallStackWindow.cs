@@ -14,8 +14,6 @@ namespace Debugging
                 Console.WriteLine(number);
         }
 
-        //This Method currently returns a Side-Effect
-        //Now this list is only orginated once when you create the buffer
         public static List<int> GetSmallests(List<int> list, int count)
         {
             //We are creating a variable here to do the processing of the list 
