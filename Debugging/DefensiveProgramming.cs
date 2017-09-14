@@ -14,6 +14,7 @@ namespace Debugging
                 Console.WriteLine(number);
         }
 
+        //We are putting the conditional statement here to fix the source of the problem
         public static List<int> GetSmallests(List<int> list, int count)
         {
             var buffer = new List<int>(list);
