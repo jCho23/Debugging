@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{8465A6D3-2A2B-4B2A-ABB8-FEA8214861D9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Debugging/DefensiveProgramming.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Debugging/CallStackWindow.cs">
     <Files>
       <File FileName="Debugging/Program.cs" Line="13" Column="1" />
-      <File FileName="Debugging/RemovingSideEffects.cs" Line="29" Column="73" />
-      <File FileName="Debugging/DefensiveProgramming.cs" Line="11" Column="1" />
+      <File FileName="Debugging/RemovingSideEffects.cs" Line="57" Column="1" />
+      <File FileName="Debugging/DefensiveProgramming.cs" Line="63" Column="1" />
+      <File FileName="Debugging/CallStackWindow.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
