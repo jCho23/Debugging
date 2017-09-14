@@ -22,7 +22,13 @@ namespace Debugging
             //we know where the problem is
             //This || "or" statment is here to defend a count that might be 0
             if (count > list.Count || count <=0)
-                throw new ArgumentOutOfRangeException("count", "Count cannot be greater than the numbers in the list.");
+                throw new ArgumentOutOfRangeException("count", "Count should be between 1 and the number of elements in the list");
+
+            //What if the list is null?
+            //We use another conditional statement to DEFEND and ensure the user asks the "right" question
+            if (list == null)
+                throw new ArgumentOutOfRangeException("list", "Count cannot be null");
+
 
             var buffer = new List<int>(list);
 
