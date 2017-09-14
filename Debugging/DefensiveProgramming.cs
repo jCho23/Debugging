@@ -19,7 +19,7 @@ namespace Debugging
         {
             //Here, we are checking the count of the numbers in the list
             if (count > list.Count)
-                throw new ArgumentOutOfRangeException("count");
+                throw new ArgumentOutOfRangeException("count", "Count cannot be greater than the numbers in the list.");
 
             var buffer = new List<int>(list);
 
