@@ -17,6 +17,10 @@ namespace Debugging
         //We are putting the conditional statement here to fix the source of the problem
         public static List<int> GetSmallests(List<int> list, int count)
         {
+            //Here, we are checking the count of the numbers in the list
+            if (count > list.Count)
+                throw new ArgumentOutOfRangeException("count");
+
             var buffer = new List<int>(list);
 
             var smallests = new List<int>();
