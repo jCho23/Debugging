@@ -20,7 +20,8 @@ namespace Debugging
             //Here, we are checking the count of the numbers in the list
             //Notice that we put a detailed message here so that if there is an exception, 
             //we know where the problem is
-            if (count > list.Count)
+            //This || "or" statment is here to defend a count that might be 0
+            if (count > list.Count || count <=0)
                 throw new ArgumentOutOfRangeException("count", "Count cannot be greater than the numbers in the list.");
 
             var buffer = new List<int>(list);
